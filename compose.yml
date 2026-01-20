@@ -1,6 +1,6 @@
 services:
   db:
-    image: nafama/mi_cine:v1
+    image: nafama/mi_cine:v2
     container_name: contenedorMiCine
     environment:
       MYSQL_ROOT_PASSWORD: contrasenyaRoot
@@ -10,7 +10,7 @@ services:
     ports:
       - "3307:3306"
   php:
-    image: nafama/mi_app_cine:v1
+    image: nafama/mi_app_cine:v2
     container_name: contenedorMiApp
     ports:
       - "8080:80"
