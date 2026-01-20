@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 // Consulta SQL para seleccionar todo el contenido de la tabla peliculas
 $sql = "SELECT * FROM peliculas";
 $result = $conn->query($sql);
-?>
+?> 
 <!DOCTYPE html>
 <html lang="es">
 <head> 
